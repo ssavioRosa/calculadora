@@ -1,0 +1,71 @@
+*{
+    background-color: rgb(119, 115, 115);
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:'Seven Segment';
+    src: url('Seven Segment.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: rgb(2, 2, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0
+}
+.calculadora{
+    background-color: rgb(119, 115, 115);
+    width: 700px;
+    height:900px ;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.interface{
+
+    background-color: rgb(2, 2, 2);
+    width: 650px;
+    height: 850px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 50px;
+
+}
+.flex{
+    justify-content: space-around;
+    width: 600px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(2, 2, 2);
+
+}
+.display{
+    font-family: 'Seven Segment';
+    margin: auto;
+    background-color: rgb(119, 115, 115);
+    height: 100px;
+    width: 500px;
+    margin-top: 80px;
+    border-radius: 30px;
+    border: 5px solid rgb(119, 115, 115); 
+    position: relative;
+}
+
+.mostra{
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+    margin: 10px; 
+    color: rgb(2, 2, 2);
+    font-size: 65px; 
+    background-color: transparent !important;
+}
+
+
