@@ -127,3 +127,118 @@ table{
     box-shadow: 0 0 8px rgb(2, 2, 2);
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 900px){
+
+    .calculadora{
+        background-color: rgb(119, 115, 115);
+        width: 350px;
+        height:500px ;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .interface{
+    
+        background-color: rgb(2, 2, 2);
+        width: 300px;
+        height: 450px;
+        margin: auto;
+        margin-top: 25px;
+        border-radius: 50px;
+    
+    }
+    .flex{
+        justify-content: space-around;
+        width: 300px;
+        height: 350px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        background-color: rgb(2, 2, 2);
+    
+    }
+    .display{
+        font-family: 'Seven Segment';
+        margin: auto;
+        background-color: rgb(119, 115, 115);
+        height: 60px;
+        width: 250px;
+        margin-top: 40px;
+        border-radius: 30px;
+        border: 5px solid rgb(119, 115, 115); 
+        position: relative;
+    }
+    
+    .mostra{
+        position: absolute; 
+        bottom: 0; 
+        right: 0; 
+        margin: 10px; 
+        color: rgb(2, 2, 2);
+        font-size: 29px; 
+        background-color: transparent !important;
+    }
+    .botoes{
+        width: 250px;
+        margin: auto;
+        height: 280px;
+        border-radius: 20px;
+        margin: auto;
+    
+    }
+    table{
+        align-items: center;
+        margin: auto;
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 20px;
+        
+        
+    }
+    
+    .botao{
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+        border-radius: 10px;
+        transition: .2s;
+        margin: 4px;
+        
+        
+    }
+    .botao:hover{
+        transform: scale(1.05);
+        box-shadow: 0 0 8px rgb(2, 2, 2);
+        cursor: pointer;
+        
+    }
+    .botao2{
+        font-size: 20px;
+        height: 90px;
+        width: 40px;
+        border-radius: 10px;
+        transition: .2s;
+    }
+    .botao2:hover{
+        transform: scale(1.05);
+        box-shadow: 0 0 8px rgb(2, 2, 2);
+        cursor: pointer;
+    }
+    .botao3{
+        font-size: 20px;
+        height: 40px;
+        width: 90px;
+        border-radius: 10px;
+        transition: .2s;
+        margin: 4px;
+    }
+    .botao3:hover{
+        transform: scale(1.05);
+        box-shadow: 0 0 8px rgb(2, 2, 2);
+        cursor: pointer;
+    }
+    
+}
